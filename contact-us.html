@@ -94,7 +94,7 @@
       statusEl.innerHTML = '<div class="alert alert-info" role="alert">Sending your message...</div>';
 
       try {
-        var response = await fetch('/api/contact', {
+        var response = await fetch('https://api.shamzmart.in/api/contact', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
