@@ -85,6 +85,20 @@ main.container {
     text-decoration: underline;
 }
 
+.footer .credit {
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 0.75rem;
+}
+
+.footer .credit a {
+    color: #f8d73d;
+}
+
+.footer .credit a:hover {
+    color: #f8d73d;
+}
+
 @media (max-width: 768px) {
 
     .hero {
